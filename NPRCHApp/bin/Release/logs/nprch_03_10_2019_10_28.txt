@@ -1,0 +1,127 @@
+[2019-10-03 10:28:37,766] INFO       start
+[2019-10-03 10:28:39,871] INFO       try connect 10.7.3.14
+[2019-10-03 10:28:39,902] INFO       try login
+[2019-10-03 10:28:40,893] INFO       login
+[2019-10-03 10:28:41,114] INFO       ќшибка при отправке файла
+[2019-10-03 10:28:41,197] INFO       BytesRoad.Net.Ftp.FtpErrorException: Operation failed.
+   в BytesRoad.Net.Ftp.FtpClient.CheckCompletionResponse(FtpResponse response)
+   в BytesRoad.Net.Ftp.FtpClient.ChangeDirectory(Int32 timeout, String path)
+   в NPRCHApp.FTPClass.CheckFile(DateTime date, String block) в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 129
+[2019-10-03 10:28:41,327] INFO       ќшибка при отправке файла
+[2019-10-03 10:28:41,327] INFO       BytesRoad.Net.Ftp.FtpErrorException: Operation failed.
+   в BytesRoad.Net.Ftp.FtpClient.CheckCompletionResponse(FtpResponse response)
+   в BytesRoad.Net.Ftp.FtpClient.ChangeDirectory(Int32 timeout, String path)
+   в NPRCHApp.FTPClass.CheckFile(DateTime date, String block) в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 129
+[2019-10-03 10:28:41,506] INFO       ќшибка при отправке файла
+[2019-10-03 10:28:41,506] INFO       BytesRoad.Net.Ftp.FtpErrorException: Operation failed.
+   в BytesRoad.Net.Ftp.FtpClient.CheckCompletionResponse(FtpResponse response)
+   в BytesRoad.Net.Ftp.FtpClient.ChangeDirectory(Int32 timeout, String path)
+   в NPRCHApp.FTPClass.CheckFile(DateTime date, String block) в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 129
+[2019-10-03 10:28:41,623] INFO       ќшибка при отправке файла
+[2019-10-03 10:28:41,623] INFO       BytesRoad.Net.Ftp.FtpErrorException: Operation failed.
+   в BytesRoad.Net.Ftp.FtpClient.CheckCompletionResponse(FtpResponse response)
+   в BytesRoad.Net.Ftp.FtpClient.ChangeDirectory(Int32 timeout, String path)
+   в NPRCHApp.FTPClass.CheckFile(DateTime date, String block) в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 129
+[2019-10-03 10:28:41,756] INFO       ќшибка при отправке файла
+[2019-10-03 10:28:41,756] INFO       BytesRoad.Net.Ftp.FtpErrorException: Operation failed.
+   в BytesRoad.Net.Ftp.FtpClient.CheckCompletionResponse(FtpResponse response)
+   в BytesRoad.Net.Ftp.FtpClient.ChangeDirectory(Int32 timeout, String path)
+   в NPRCHApp.FTPClass.CheckFile(DateTime date, String block) в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 129
+[2019-10-03 10:28:41,875] INFO       ќшибка при отправке файла
+[2019-10-03 10:28:41,875] INFO       BytesRoad.Net.Ftp.FtpErrorException: Operation failed.
+   в BytesRoad.Net.Ftp.FtpClient.CheckCompletionResponse(FtpResponse response)
+   в BytesRoad.Net.Ftp.FtpClient.ChangeDirectory(Int32 timeout, String path)
+   в NPRCHApp.FTPClass.CheckFile(DateTime date, String block) в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 129
+[2019-10-03 10:28:42,001] INFO       ќшибка при отправке файла
+[2019-10-03 10:28:42,001] INFO       BytesRoad.Net.Ftp.FtpErrorException: Operation failed.
+   в BytesRoad.Net.Ftp.FtpClient.CheckCompletionResponse(FtpResponse response)
+   в BytesRoad.Net.Ftp.FtpClient.ChangeDirectory(Int32 timeout, String path)
+   в NPRCHApp.FTPClass.CheckFile(DateTime date, String block) в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 129
+[2019-10-03 10:28:42,165] INFO       ќшибка при отправке файла
+[2019-10-03 10:28:42,165] INFO       BytesRoad.Net.Ftp.FtpErrorException: Operation failed.
+   в BytesRoad.Net.Ftp.FtpClient.CheckCompletionResponse(FtpResponse response)
+   в BytesRoad.Net.Ftp.FtpClient.ChangeDirectory(Int32 timeout, String path)
+   в NPRCHApp.FTPClass.CheckFile(DateTime date, String block) в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 129
+[2019-10-03 10:28:42,282] INFO       ќшибка при отправке файла
+[2019-10-03 10:28:42,282] INFO       BytesRoad.Net.Ftp.FtpErrorException: Operation failed.
+   в BytesRoad.Net.Ftp.FtpClient.CheckCompletionResponse(FtpResponse response)
+   в BytesRoad.Net.Ftp.FtpClient.ChangeDirectory(Int32 timeout, String path)
+   в NPRCHApp.FTPClass.CheckFile(DateTime date, String block) в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 129
+[2019-10-03 10:28:42,402] INFO       ќшибка при отправке файла
+[2019-10-03 10:28:42,402] INFO       BytesRoad.Net.Ftp.FtpErrorException: Operation failed.
+   в BytesRoad.Net.Ftp.FtpClient.CheckCompletionResponse(FtpResponse response)
+   в BytesRoad.Net.Ftp.FtpClient.ChangeDirectory(Int32 timeout, String path)
+   в NPRCHApp.FTPClass.CheckFile(DateTime date, String block) в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 129
+[2019-10-03 10:28:42,519] INFO       ќшибка при отправке файла
+[2019-10-03 10:28:42,519] INFO       BytesRoad.Net.Ftp.FtpErrorException: Operation failed.
+   в BytesRoad.Net.Ftp.FtpClient.CheckCompletionResponse(FtpResponse response)
+   в BytesRoad.Net.Ftp.FtpClient.ChangeDirectory(Int32 timeout, String path)
+   в NPRCHApp.FTPClass.CheckFile(DateTime date, String block) в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 129
+[2019-10-03 10:28:42,639] INFO       ќшибка при отправке файла
+[2019-10-03 10:28:42,639] INFO       BytesRoad.Net.Ftp.FtpErrorException: Operation failed.
+   в BytesRoad.Net.Ftp.FtpClient.CheckCompletionResponse(FtpResponse response)
+   в BytesRoad.Net.Ftp.FtpClient.ChangeDirectory(Int32 timeout, String path)
+   в NPRCHApp.FTPClass.CheckFile(DateTime date, String block) в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 129
+[2019-10-03 10:28:42,754] INFO       ќшибка при отправке файла
+[2019-10-03 10:28:42,754] INFO       BytesRoad.Net.Ftp.FtpErrorException: Operation failed.
+   в BytesRoad.Net.Ftp.FtpClient.CheckCompletionResponse(FtpResponse response)
+   в BytesRoad.Net.Ftp.FtpClient.ChangeDirectory(Int32 timeout, String path)
+   в NPRCHApp.FTPClass.CheckFile(DateTime date, String block) в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 129
+[2019-10-03 10:28:42,902] INFO       ќшибка при отправке файла
+[2019-10-03 10:28:42,902] INFO       BytesRoad.Net.Ftp.FtpErrorException: Operation failed.
+   в BytesRoad.Net.Ftp.FtpClient.CheckCompletionResponse(FtpResponse response)
+   в BytesRoad.Net.Ftp.FtpClient.ChangeDirectory(Int32 timeout, String path)
+   в NPRCHApp.FTPClass.CheckFile(DateTime date, String block) в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 129
+[2019-10-03 10:28:43,015] INFO       ќшибка при отправке файла
+[2019-10-03 10:28:43,015] INFO       BytesRoad.Net.Ftp.FtpErrorException: Operation failed.
+   в BytesRoad.Net.Ftp.FtpClient.CheckCompletionResponse(FtpResponse response)
+   в BytesRoad.Net.Ftp.FtpClient.ChangeDirectory(Int32 timeout, String path)
+   в NPRCHApp.FTPClass.CheckFile(DateTime date, String block) в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 129
+[2019-10-03 10:28:43,186] INFO       ќшибка при отправке файла
+[2019-10-03 10:28:43,186] INFO       BytesRoad.Net.Ftp.FtpErrorException: Operation failed.
+   в BytesRoad.Net.Ftp.FtpClient.CheckCompletionResponse(FtpResponse response)
+   в BytesRoad.Net.Ftp.FtpClient.ChangeDirectory(Int32 timeout, String path)
+   в NPRCHApp.FTPClass.CheckFile(DateTime date, String block) в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 129
+[2019-10-03 10:28:43,303] INFO       ќшибка при отправке файла
+[2019-10-03 10:28:43,303] INFO       BytesRoad.Net.Ftp.FtpErrorException: Operation failed.
+   в BytesRoad.Net.Ftp.FtpClient.CheckCompletionResponse(FtpResponse response)
+   в BytesRoad.Net.Ftp.FtpClient.ChangeDirectory(Int32 timeout, String path)
+   в NPRCHApp.FTPClass.CheckFile(DateTime date, String block) в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 129
+[2019-10-03 10:28:43,418] INFO       ќшибка при отправке файла
+[2019-10-03 10:28:43,418] INFO       BytesRoad.Net.Ftp.FtpErrorException: Operation failed.
+   в BytesRoad.Net.Ftp.FtpClient.CheckCompletionResponse(FtpResponse response)
+   в BytesRoad.Net.Ftp.FtpClient.ChangeDirectory(Int32 timeout, String path)
+   в NPRCHApp.FTPClass.CheckFile(DateTime date, String block) в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 129
+[2019-10-03 10:28:43,558] INFO       ќшибка при отправке файла
+[2019-10-03 10:28:43,558] INFO       BytesRoad.Net.Ftp.FtpErrorException: Operation failed.
+   в BytesRoad.Net.Ftp.FtpClient.CheckCompletionResponse(FtpResponse response)
+   в BytesRoad.Net.Ftp.FtpClient.ChangeDirectory(Int32 timeout, String path)
+   в NPRCHApp.FTPClass.CheckFile(DateTime date, String block) в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 129
+[2019-10-03 10:28:43,699] INFO       ќшибка при отправке файла
+[2019-10-03 10:28:43,699] INFO       BytesRoad.Net.Ftp.FtpErrorException: Operation failed.
+   в BytesRoad.Net.Ftp.FtpClient.CheckCompletionResponse(FtpResponse response)
+   в BytesRoad.Net.Ftp.FtpClient.ChangeDirectory(Int32 timeout, String path)
+   в NPRCHApp.FTPClass.CheckFile(DateTime date, String block) в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 129
+[2019-10-03 10:28:43,811] INFO       ќшибка при отправке файла
+[2019-10-03 10:28:43,811] INFO       BytesRoad.Net.Ftp.FtpErrorException: Operation failed.
+   в BytesRoad.Net.Ftp.FtpClient.CheckCompletionResponse(FtpResponse response)
+   в BytesRoad.Net.Ftp.FtpClient.ChangeDirectory(Int32 timeout, String path)
+   в NPRCHApp.FTPClass.CheckFile(DateTime date, String block) в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 129
+[2019-10-03 10:28:43,927] INFO       ќшибка при отправке файла
+[2019-10-03 10:28:43,927] INFO       BytesRoad.Net.Ftp.FtpErrorException: Operation failed.
+   в BytesRoad.Net.Ftp.FtpClient.CheckCompletionResponse(FtpResponse response)
+   в BytesRoad.Net.Ftp.FtpClient.ChangeDirectory(Int32 timeout, String path)
+   в NPRCHApp.FTPClass.CheckFile(DateTime date, String block) в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 129
+[2019-10-03 10:28:44,051] INFO       ќшибка при отправке файла
+[2019-10-03 10:28:44,051] INFO       BytesRoad.Net.Ftp.FtpErrorException: Operation failed.
+   в BytesRoad.Net.Ftp.FtpClient.CheckCompletionResponse(FtpResponse response)
+   в BytesRoad.Net.Ftp.FtpClient.ChangeDirectory(Int32 timeout, String path)
+   в NPRCHApp.FTPClass.CheckFile(DateTime date, String block) в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 129
+[2019-10-03 10:28:44,166] INFO       ќшибка при отправке файла
+[2019-10-03 10:28:44,166] INFO       BytesRoad.Net.Ftp.FtpErrorException: Operation failed.
+   в BytesRoad.Net.Ftp.FtpClient.CheckCompletionResponse(FtpResponse response)
+   в BytesRoad.Net.Ftp.FtpClient.ChangeDirectory(Int32 timeout, String path)
+   в NPRCHApp.FTPClass.CheckFile(DateTime date, String block) в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 129
+[2019-10-03 10:28:49,221] INFO       try connect 10.7.3.15
+[2019-10-03 10:28:49,224] INFO       try login
+[2019-10-03 10:28:49,226] INFO       login

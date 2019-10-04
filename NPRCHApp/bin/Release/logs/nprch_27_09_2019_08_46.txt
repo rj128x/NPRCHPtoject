@@ -1,0 +1,208 @@
+[2019-09-27 08:46:56,710] INFO       start
+[2019-09-27 08:46:58,262] INFO       try connect 10.7.3.14
+[2019-09-27 08:46:58,286] INFO       try login
+[2019-09-27 08:46:59,291] INFO       Ошибка при отправке файла
+[2019-09-27 08:46:59,294] INFO       BytesRoad.Net.Ftp.FtpTimeoutException: Timeout occurs. ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+   в BytesRoad.Net.Sockets.SocketEx.StopTimeoutTrack(Exception e)
+   в BytesRoad.Net.Sockets.SocketEx.DoTimeoutOp(Int32 timeout, IOp op)
+   в BytesRoad.Net.Sockets.SocketEx.Receive(Byte[] buffer)
+   в BytesRoad.Net.Ftp.Advanced.FtpResponseReader.ReadResponse(Int32 timeout)
+   в BytesRoad.Net.Ftp.Advanced.FtpControlConnection.SendCommandEx(Int32 timeout, String command)
+   --- Конец трассировки внутреннего стека исключений ---
+   в BytesRoad.Net.Ftp.Advanced.FtpControlConnection.CheckTimeoutException(SocketException e)
+   в BytesRoad.Net.Ftp.Advanced.FtpControlConnection.SendCommandEx(Int32 timeout, String command)
+   в BytesRoad.Net.Ftp.Commands.Cmd_Login.RunLoginCmd(Int32 timeout, String cmd, FtpResponse& response)
+   в BytesRoad.Net.Ftp.Commands.Cmd_Login.Execute(Int32 timeout, String user, String password, String account)
+   в BytesRoad.Net.Ftp.FtpClient.Login(Int32 timeout, String username, String password)
+   в NPRCHApp.FTPClass.getClient() в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 38
+   в NPRCHApp.FTPClass.CheckFile(DateTime date, String block) в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 124
+[2019-09-27 08:46:59,306] INFO       try connect 10.7.3.14
+[2019-09-27 08:46:59,308] INFO       try login
+[2019-09-27 08:47:00,317] INFO       Ошибка при отправке файла
+[2019-09-27 08:47:00,317] INFO       BytesRoad.Net.Ftp.FtpTimeoutException: Timeout occurs. ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+   в BytesRoad.Net.Sockets.SocketEx.StopTimeoutTrack(Exception e)
+   в BytesRoad.Net.Sockets.SocketEx.DoTimeoutOp(Int32 timeout, IOp op)
+   в BytesRoad.Net.Sockets.SocketEx.Receive(Byte[] buffer)
+   в BytesRoad.Net.Ftp.Advanced.FtpResponseReader.ReadResponse(Int32 timeout)
+   в BytesRoad.Net.Ftp.Advanced.FtpControlConnection.SendCommandEx(Int32 timeout, String command)
+   --- Конец трассировки внутреннего стека исключений ---
+   в BytesRoad.Net.Ftp.Advanced.FtpControlConnection.CheckTimeoutException(SocketException e)
+   в BytesRoad.Net.Ftp.Advanced.FtpControlConnection.SendCommandEx(Int32 timeout, String command)
+   в BytesRoad.Net.Ftp.Commands.Cmd_Login.RunLoginCmd(Int32 timeout, String cmd, FtpResponse& response)
+   в BytesRoad.Net.Ftp.Commands.Cmd_Login.Execute(Int32 timeout, String user, String password, String account)
+   в BytesRoad.Net.Ftp.FtpClient.Login(Int32 timeout, String username, String password)
+   в NPRCHApp.FTPClass.getClient() в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 38
+   в NPRCHApp.FTPClass.CheckFile(DateTime date, String block) в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 124
+[2019-09-27 08:47:00,333] INFO       try connect 10.7.3.14
+[2019-09-27 08:47:00,333] INFO       try login
+[2019-09-27 08:47:01,334] INFO       Ошибка при отправке файла
+[2019-09-27 08:47:01,334] INFO       BytesRoad.Net.Ftp.FtpTimeoutException: Timeout occurs. ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+   в BytesRoad.Net.Sockets.SocketEx.StopTimeoutTrack(Exception e)
+   в BytesRoad.Net.Sockets.SocketEx.DoTimeoutOp(Int32 timeout, IOp op)
+   в BytesRoad.Net.Sockets.SocketEx.Receive(Byte[] buffer)
+   в BytesRoad.Net.Ftp.Advanced.FtpResponseReader.ReadResponse(Int32 timeout)
+   в BytesRoad.Net.Ftp.Advanced.FtpControlConnection.SendCommandEx(Int32 timeout, String command)
+   --- Конец трассировки внутреннего стека исключений ---
+   в BytesRoad.Net.Ftp.Advanced.FtpControlConnection.CheckTimeoutException(SocketException e)
+   в BytesRoad.Net.Ftp.Advanced.FtpControlConnection.SendCommandEx(Int32 timeout, String command)
+   в BytesRoad.Net.Ftp.Commands.Cmd_Login.RunLoginCmd(Int32 timeout, String cmd, FtpResponse& response)
+   в BytesRoad.Net.Ftp.Commands.Cmd_Login.Execute(Int32 timeout, String user, String password, String account)
+   в BytesRoad.Net.Ftp.FtpClient.Login(Int32 timeout, String username, String password)
+   в NPRCHApp.FTPClass.getClient() в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 38
+   в NPRCHApp.FTPClass.CheckFile(DateTime date, String block) в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 124
+[2019-09-27 08:47:01,345] INFO       try connect 10.7.3.14
+[2019-09-27 08:47:01,347] INFO       try login
+[2019-09-27 08:47:02,348] INFO       Ошибка при отправке файла
+[2019-09-27 08:47:02,348] INFO       BytesRoad.Net.Ftp.FtpTimeoutException: Timeout occurs. ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+   в BytesRoad.Net.Sockets.SocketEx.StopTimeoutTrack(Exception e)
+   в BytesRoad.Net.Sockets.SocketEx.DoTimeoutOp(Int32 timeout, IOp op)
+   в BytesRoad.Net.Sockets.SocketEx.Receive(Byte[] buffer)
+   в BytesRoad.Net.Ftp.Advanced.FtpResponseReader.ReadResponse(Int32 timeout)
+   в BytesRoad.Net.Ftp.Advanced.FtpControlConnection.SendCommandEx(Int32 timeout, String command)
+   --- Конец трассировки внутреннего стека исключений ---
+   в BytesRoad.Net.Ftp.Advanced.FtpControlConnection.CheckTimeoutException(SocketException e)
+   в BytesRoad.Net.Ftp.Advanced.FtpControlConnection.SendCommandEx(Int32 timeout, String command)
+   в BytesRoad.Net.Ftp.Commands.Cmd_Login.RunLoginCmd(Int32 timeout, String cmd, FtpResponse& response)
+   в BytesRoad.Net.Ftp.Commands.Cmd_Login.Execute(Int32 timeout, String user, String password, String account)
+   в BytesRoad.Net.Ftp.FtpClient.Login(Int32 timeout, String username, String password)
+   в NPRCHApp.FTPClass.getClient() в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 38
+   в NPRCHApp.FTPClass.CheckFile(DateTime date, String block) в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 124
+[2019-09-27 08:47:02,360] INFO       try connect 10.7.3.14
+[2019-09-27 08:47:02,361] INFO       try login
+[2019-09-27 08:47:03,363] INFO       Ошибка при отправке файла
+[2019-09-27 08:47:03,364] INFO       BytesRoad.Net.Ftp.FtpTimeoutException: Timeout occurs. ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+   в BytesRoad.Net.Sockets.SocketEx.StopTimeoutTrack(Exception e)
+   в BytesRoad.Net.Sockets.SocketEx.DoTimeoutOp(Int32 timeout, IOp op)
+   в BytesRoad.Net.Sockets.SocketEx.Receive(Byte[] buffer)
+   в BytesRoad.Net.Ftp.Advanced.FtpResponseReader.ReadResponse(Int32 timeout)
+   в BytesRoad.Net.Ftp.Advanced.FtpControlConnection.SendCommandEx(Int32 timeout, String command)
+   --- Конец трассировки внутреннего стека исключений ---
+   в BytesRoad.Net.Ftp.Advanced.FtpControlConnection.CheckTimeoutException(SocketException e)
+   в BytesRoad.Net.Ftp.Advanced.FtpControlConnection.SendCommandEx(Int32 timeout, String command)
+   в BytesRoad.Net.Ftp.Commands.Cmd_Login.RunLoginCmd(Int32 timeout, String cmd, FtpResponse& response)
+   в BytesRoad.Net.Ftp.Commands.Cmd_Login.Execute(Int32 timeout, String user, String password, String account)
+   в BytesRoad.Net.Ftp.FtpClient.Login(Int32 timeout, String username, String password)
+   в NPRCHApp.FTPClass.getClient() в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 38
+   в NPRCHApp.FTPClass.CheckFile(DateTime date, String block) в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 124
+[2019-09-27 08:47:03,375] INFO       try connect 10.7.3.14
+[2019-09-27 08:47:03,376] INFO       try login
+[2019-09-27 08:47:04,380] INFO       Ошибка при отправке файла
+[2019-09-27 08:47:04,380] INFO       BytesRoad.Net.Ftp.FtpTimeoutException: Timeout occurs. ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+   в BytesRoad.Net.Sockets.SocketEx.StopTimeoutTrack(Exception e)
+   в BytesRoad.Net.Sockets.SocketEx.DoTimeoutOp(Int32 timeout, IOp op)
+   в BytesRoad.Net.Sockets.SocketEx.Receive(Byte[] buffer)
+   в BytesRoad.Net.Ftp.Advanced.FtpResponseReader.ReadResponse(Int32 timeout)
+   в BytesRoad.Net.Ftp.Advanced.FtpControlConnection.SendCommandEx(Int32 timeout, String command)
+   --- Конец трассировки внутреннего стека исключений ---
+   в BytesRoad.Net.Ftp.Advanced.FtpControlConnection.CheckTimeoutException(SocketException e)
+   в BytesRoad.Net.Ftp.Advanced.FtpControlConnection.SendCommandEx(Int32 timeout, String command)
+   в BytesRoad.Net.Ftp.Commands.Cmd_Login.RunLoginCmd(Int32 timeout, String cmd, FtpResponse& response)
+   в BytesRoad.Net.Ftp.Commands.Cmd_Login.Execute(Int32 timeout, String user, String password, String account)
+   в BytesRoad.Net.Ftp.FtpClient.Login(Int32 timeout, String username, String password)
+   в NPRCHApp.FTPClass.getClient() в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 38
+   в NPRCHApp.FTPClass.CheckFile(DateTime date, String block) в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 124
+[2019-09-27 08:47:04,396] INFO       try connect 10.7.3.14
+[2019-09-27 08:47:04,396] INFO       try login
+[2019-09-27 08:47:05,396] INFO       Ошибка при отправке файла
+[2019-09-27 08:47:05,397] INFO       BytesRoad.Net.Ftp.FtpTimeoutException: Timeout occurs. ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+   в BytesRoad.Net.Sockets.SocketEx.StopTimeoutTrack(Exception e)
+   в BytesRoad.Net.Sockets.SocketEx.DoTimeoutOp(Int32 timeout, IOp op)
+   в BytesRoad.Net.Sockets.SocketEx.Receive(Byte[] buffer)
+   в BytesRoad.Net.Ftp.Advanced.FtpResponseReader.ReadResponse(Int32 timeout)
+   в BytesRoad.Net.Ftp.Advanced.FtpControlConnection.SendCommandEx(Int32 timeout, String command)
+   --- Конец трассировки внутреннего стека исключений ---
+   в BytesRoad.Net.Ftp.Advanced.FtpControlConnection.CheckTimeoutException(SocketException e)
+   в BytesRoad.Net.Ftp.Advanced.FtpControlConnection.SendCommandEx(Int32 timeout, String command)
+   в BytesRoad.Net.Ftp.Commands.Cmd_Login.RunLoginCmd(Int32 timeout, String cmd, FtpResponse& response)
+   в BytesRoad.Net.Ftp.Commands.Cmd_Login.Execute(Int32 timeout, String user, String password, String account)
+   в BytesRoad.Net.Ftp.FtpClient.Login(Int32 timeout, String username, String password)
+   в NPRCHApp.FTPClass.getClient() в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 38
+   в NPRCHApp.FTPClass.CheckFile(DateTime date, String block) в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 124
+[2019-09-27 08:47:05,408] INFO       try connect 10.7.3.14
+[2019-09-27 08:47:05,409] INFO       try login
+[2019-09-27 08:47:06,411] INFO       Ошибка при отправке файла
+[2019-09-27 08:47:06,411] INFO       BytesRoad.Net.Ftp.FtpTimeoutException: Timeout occurs. ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+   в BytesRoad.Net.Sockets.SocketEx.StopTimeoutTrack(Exception e)
+   в BytesRoad.Net.Sockets.SocketEx.DoTimeoutOp(Int32 timeout, IOp op)
+   в BytesRoad.Net.Sockets.SocketEx.Receive(Byte[] buffer)
+   в BytesRoad.Net.Ftp.Advanced.FtpResponseReader.ReadResponse(Int32 timeout)
+   в BytesRoad.Net.Ftp.Advanced.FtpControlConnection.SendCommandEx(Int32 timeout, String command)
+   --- Конец трассировки внутреннего стека исключений ---
+   в BytesRoad.Net.Ftp.Advanced.FtpControlConnection.CheckTimeoutException(SocketException e)
+   в BytesRoad.Net.Ftp.Advanced.FtpControlConnection.SendCommandEx(Int32 timeout, String command)
+   в BytesRoad.Net.Ftp.Commands.Cmd_Login.RunLoginCmd(Int32 timeout, String cmd, FtpResponse& response)
+   в BytesRoad.Net.Ftp.Commands.Cmd_Login.Execute(Int32 timeout, String user, String password, String account)
+   в BytesRoad.Net.Ftp.FtpClient.Login(Int32 timeout, String username, String password)
+   в NPRCHApp.FTPClass.getClient() в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 38
+   в NPRCHApp.FTPClass.CheckFile(DateTime date, String block) в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 124
+[2019-09-27 08:47:06,422] INFO       try connect 10.7.3.14
+[2019-09-27 08:47:06,424] INFO       try login
+[2019-09-27 08:47:07,431] INFO       Ошибка при отправке файла
+[2019-09-27 08:47:07,431] INFO       BytesRoad.Net.Ftp.FtpTimeoutException: Timeout occurs. ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+   в BytesRoad.Net.Sockets.SocketEx.StopTimeoutTrack(Exception e)
+   в BytesRoad.Net.Sockets.SocketEx.DoTimeoutOp(Int32 timeout, IOp op)
+   в BytesRoad.Net.Sockets.SocketEx.Receive(Byte[] buffer)
+   в BytesRoad.Net.Ftp.Advanced.FtpResponseReader.ReadResponse(Int32 timeout)
+   в BytesRoad.Net.Ftp.Advanced.FtpControlConnection.SendCommandEx(Int32 timeout, String command)
+   --- Конец трассировки внутреннего стека исключений ---
+   в BytesRoad.Net.Ftp.Advanced.FtpControlConnection.CheckTimeoutException(SocketException e)
+   в BytesRoad.Net.Ftp.Advanced.FtpControlConnection.SendCommandEx(Int32 timeout, String command)
+   в BytesRoad.Net.Ftp.Commands.Cmd_Login.RunLoginCmd(Int32 timeout, String cmd, FtpResponse& response)
+   в BytesRoad.Net.Ftp.Commands.Cmd_Login.Execute(Int32 timeout, String user, String password, String account)
+   в BytesRoad.Net.Ftp.FtpClient.Login(Int32 timeout, String username, String password)
+   в NPRCHApp.FTPClass.getClient() в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 38
+   в NPRCHApp.FTPClass.CheckFile(DateTime date, String block) в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 124
+[2019-09-27 08:47:07,447] INFO       try connect 10.7.3.14
+[2019-09-27 08:47:07,447] INFO       try login
+[2019-09-27 08:47:08,448] INFO       Ошибка при отправке файла
+[2019-09-27 08:47:08,448] INFO       BytesRoad.Net.Ftp.FtpTimeoutException: Timeout occurs. ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+   в BytesRoad.Net.Sockets.SocketEx.StopTimeoutTrack(Exception e)
+   в BytesRoad.Net.Sockets.SocketEx.DoTimeoutOp(Int32 timeout, IOp op)
+   в BytesRoad.Net.Sockets.SocketEx.Receive(Byte[] buffer)
+   в BytesRoad.Net.Ftp.Advanced.FtpResponseReader.ReadResponse(Int32 timeout)
+   в BytesRoad.Net.Ftp.Advanced.FtpControlConnection.SendCommandEx(Int32 timeout, String command)
+   --- Конец трассировки внутреннего стека исключений ---
+   в BytesRoad.Net.Ftp.Advanced.FtpControlConnection.CheckTimeoutException(SocketException e)
+   в BytesRoad.Net.Ftp.Advanced.FtpControlConnection.SendCommandEx(Int32 timeout, String command)
+   в BytesRoad.Net.Ftp.Commands.Cmd_Login.RunLoginCmd(Int32 timeout, String cmd, FtpResponse& response)
+   в BytesRoad.Net.Ftp.Commands.Cmd_Login.Execute(Int32 timeout, String user, String password, String account)
+   в BytesRoad.Net.Ftp.FtpClient.Login(Int32 timeout, String username, String password)
+   в NPRCHApp.FTPClass.getClient() в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 38
+   в NPRCHApp.FTPClass.CheckFile(DateTime date, String block) в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 124
+[2019-09-27 08:47:08,459] INFO       try connect 10.7.3.14
+[2019-09-27 08:47:08,460] INFO       try login
+[2019-09-27 08:47:09,472] INFO       Ошибка при отправке файла
+[2019-09-27 08:47:09,472] INFO       BytesRoad.Net.Ftp.FtpTimeoutException: Timeout occurs. ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+   в BytesRoad.Net.Sockets.SocketEx.StopTimeoutTrack(Exception e)
+   в BytesRoad.Net.Sockets.SocketEx.DoTimeoutOp(Int32 timeout, IOp op)
+   в BytesRoad.Net.Sockets.SocketEx.Receive(Byte[] buffer)
+   в BytesRoad.Net.Ftp.Advanced.FtpResponseReader.ReadResponse(Int32 timeout)
+   в BytesRoad.Net.Ftp.Advanced.FtpControlConnection.SendCommandEx(Int32 timeout, String command)
+   --- Конец трассировки внутреннего стека исключений ---
+   в BytesRoad.Net.Ftp.Advanced.FtpControlConnection.CheckTimeoutException(SocketException e)
+   в BytesRoad.Net.Ftp.Advanced.FtpControlConnection.SendCommandEx(Int32 timeout, String command)
+   в BytesRoad.Net.Ftp.Commands.Cmd_Login.RunLoginCmd(Int32 timeout, String cmd, FtpResponse& response)
+   в BytesRoad.Net.Ftp.Commands.Cmd_Login.Execute(Int32 timeout, String user, String password, String account)
+   в BytesRoad.Net.Ftp.FtpClient.Login(Int32 timeout, String username, String password)
+   в NPRCHApp.FTPClass.getClient() в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 38
+   в NPRCHApp.FTPClass.CheckFile(DateTime date, String block) в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 124
+[2019-09-27 08:47:09,483] INFO       try connect 10.7.3.14
+[2019-09-27 08:47:09,485] INFO       try login
+[2019-09-27 08:47:10,488] INFO       Ошибка при отправке файла
+[2019-09-27 08:47:10,488] INFO       BytesRoad.Net.Ftp.FtpTimeoutException: Timeout occurs. ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+   в BytesRoad.Net.Sockets.SocketEx.StopTimeoutTrack(Exception e)
+   в BytesRoad.Net.Sockets.SocketEx.DoTimeoutOp(Int32 timeout, IOp op)
+   в BytesRoad.Net.Sockets.SocketEx.Receive(Byte[] buffer)
+   в BytesRoad.Net.Ftp.Advanced.FtpResponseReader.ReadResponse(Int32 timeout)
+   в BytesRoad.Net.Ftp.Advanced.FtpControlConnection.SendCommandEx(Int32 timeout, String command)
+   --- Конец трассировки внутреннего стека исключений ---
+   в BytesRoad.Net.Ftp.Advanced.FtpControlConnection.CheckTimeoutException(SocketException e)
+   в BytesRoad.Net.Ftp.Advanced.FtpControlConnection.SendCommandEx(Int32 timeout, String command)
+   в BytesRoad.Net.Ftp.Commands.Cmd_Login.RunLoginCmd(Int32 timeout, String cmd, FtpResponse& response)
+   в BytesRoad.Net.Ftp.Commands.Cmd_Login.Execute(Int32 timeout, String user, String password, String account)
+   в BytesRoad.Net.Ftp.FtpClient.Login(Int32 timeout, String username, String password)
+   в NPRCHApp.FTPClass.getClient() в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 38
+   в NPRCHApp.FTPClass.CheckFile(DateTime date, String block) в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 124
+[2019-09-27 08:47:10,499] INFO       try connect 10.7.3.14
+[2019-09-27 08:47:10,506] INFO       try login
+[2019-09-27 08:47:11,498] INFO       login

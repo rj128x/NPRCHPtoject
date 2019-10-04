@@ -1,0 +1,15 @@
+[2019-09-30 11:10:43,435] INFO       start
+[2019-09-30 11:10:47,359] INFO       try connect 10.7.3.14
+[2019-09-30 11:10:47,443] INFO       try login
+[2019-09-30 11:10:48,476] INFO       login
+[2019-09-30 11:14:15,207] INFO       Ошибка при отправке файла
+[2019-09-30 11:14:15,370] INFO       System.Net.Sockets.SocketException (0x80004005): Удаленный хост принудительно разорвал существующее подключение
+   в System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в BytesRoad.Net.Sockets.SocketBase.Send(Byte[] buffer, Int32 offset, Int32 size)
+   в BytesRoad.Net.Sockets.SocketEx.Send_Op.Execute()
+   в BytesRoad.Net.Sockets.SocketEx.DoTimeoutOp(Int32 timeout, IOp op)
+   в BytesRoad.Net.Sockets.SocketEx.Send(Byte[] buffer, Int32 offset, Int32 size)
+   в BytesRoad.Net.Ftp.Advanced.FtpControlConnection.SendCommandEx(Int32 timeout, String command)
+   в BytesRoad.Net.Ftp.Commands.Cmd_Single.Execute(Int32 timeout, String command)
+   в BytesRoad.Net.Ftp.FtpClient.ChangeDirectory(Int32 timeout, String path)
+   в NPRCHApp.FTPClass.ReadFile(DateTime date, String block, String& fileName) в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 65

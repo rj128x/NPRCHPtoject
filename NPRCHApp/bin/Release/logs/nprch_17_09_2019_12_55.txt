@@ -1,0 +1,12 @@
+[2019-09-17 12:55:01,521] INFO       start
+[2019-09-17 12:55:05,721] INFO       try connect 10.7.3.14
+[2019-09-17 12:55:06,049] INFO       try login
+[2019-09-17 12:55:06,065] INFO       login
+[2019-09-17 12:55:48,416] INFO       ќшибка при отправке файла
+[2019-09-17 12:55:48,617] INFO       BytesRoad.Net.Ftp.FtpErrorException: Operation failed.
+   в BytesRoad.Net.Ftp.FtpClient.CheckPreliminaryResponse(FtpResponse response)
+   в BytesRoad.Net.Ftp.Commands.Cmd_RunDTP.Execute(Int32 timeout, String cmd, FtpDataType dataType, Int64 restart, DTPStream userStream)
+   в BytesRoad.Net.Ftp.Commands.Cmd_GetFile.Execute(Int32 timeout, Stream userStream, String file, Int64 offset, Int64 length)
+   в BytesRoad.Net.Ftp.FtpClient.GetFile(Int32 timeout, Stream userStream, String path, Int64 offset, Int64 length)
+   в BytesRoad.Net.Ftp.FtpClient.GetFile(Int32 timeout, String destPath, String path, Int64 offset, Int64 length)
+   в NPRCHApp.FTPClass.ReadFile(DateTime date, String block, String& fileName) в C:\DiscD\Projects\NPRCHProject\NPRCHApp\FTPClass.cs:строка 70
